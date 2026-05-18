@@ -19,7 +19,11 @@ The Failed Login project aimed to establish a controlled environment to detect a
   - hydra -l
   - netsh advfirewall 
 
-
+* Lab Setup:
+  Attacker: Kali
+  Target: Windows 10
+  Virtualization: VirtualBox
+  Nextwork: Host Only
 ## Steps
 1. Enabled Logging 
 2. Event Viewer -> Window Logs -> Security 
@@ -45,6 +49,6 @@ Successful factors:
 
 Ref 3: Windows Firewall 
 
-
+Enabling firewall and having it block the attacking system (Kali)
 <img width="935" height="317" alt="Windows FirewallRule" src="https://github.com/user-attachments/assets/f39a4e4d-9fb5-443c-ac39-4f7f938b6dbe" />
 <img width="798" height="215" alt="Windows10 nestsh Results" src="https://github.com/user-attachments/assets/289f8ce0-3f6a-4296-89e3-e3dff0e27a1e" />
