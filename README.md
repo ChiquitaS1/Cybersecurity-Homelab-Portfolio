@@ -42,3 +42,6 @@ My journey in HRIS and System Operations has led me to develop a passion for cyb
 
 <img src="https://img.shields.io/badge/-ISC2-006400?&style=for-the-badge&logo=shield&logoColor=white" />    | IN PROGRESS | EXPECTED JULY 2026 |
 </div>
+
+## Projects
+- [Lab1 Failed Login Investigation](Lab1-Failed-Login-Investigation/README.md)
