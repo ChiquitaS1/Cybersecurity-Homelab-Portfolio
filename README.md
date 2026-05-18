@@ -13,7 +13,7 @@ Document findings and response actions
 Apply foundational cybersecurity concepts
 
 ## Objective
-My journey in HRIS and System Operations has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aimiing for a SOC or Analyst role.
+My journey in HRIS and System Operations has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming for a SOC or Engineer roles.
 
 ## Skills
 
@@ -23,22 +23,22 @@ My journey in HRIS and System Operations has led me to develop a passion for cyb
 
 
 ## Tools 
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
 
 ### Network
 <div>
     <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Hydra-8A2BE2?&style=for-the-badge&logo=hackthebox&logoColor=white" />
 </div>
 
 ### Endpoint
-
-### SIEM
+<img src="https://img.shields.io/badge/-Windows%20Event%20Viewer-0078D6?&style=for-the-badge&logo=windows&logoColor=white" />
+<img src="https://img.shields.io/badge/-Sysmon-2C2D72?&style=for-the-badge&logo=windows&logoColor=white" />
 
 ## Certifications
 
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" /> IN PROGRESS
+<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />   | IN PROGRESS | EXPECTED AUG 2026 |
 
 <img src="https://img.shields.io/badge/-Google%20Data%20Analytics-4285F4?&style=for-the-badge&logo=google&logoColor=white" />
 
-<img src="https://img.shields.io/badge/-ISC2-006400?&style=for-the-badge&logo=shield&logoColor=white" /> IN PROGRESS
+<img src="https://img.shields.io/badge/-ISC2-006400?&style=for-the-badge&logo=shield&logoColor=white" />    | IN PROGRESS | EXPECTED JULY 2026 |
 </div>
