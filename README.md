@@ -1,54 +1,44 @@
-## Lab 1: Failed Login Investigation
+# Hello, I'm Chiquita 
+<a href="https://www.linkedin.com/in/chiquita-s-scott-41a65ba0/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+
+Aspiring SOC Analyst building hands-on cybersecurity labs using Kali Linux, Windows 10, Sysmon, and VirtualBox. Currently studying for Security+ and ISC2 CC while documenting real-world attack simulations and defensive investigations.
+
+To build hands-on cybersecurity skills, I developed a personal home lab to simulate real-world security scenarios including alert monitoring, log analysis, and incident response.
+
+This portfolio showcases practical labs demonstrating my ability to:
+
+Analyze security events and logs 
+Perform basic incident triage 
+Document findings and response actions 
+Apply foundational cybersecurity concepts
 
 ## Objective
+My journey in HRIS and System Operations has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aimiing for a SOC or Analyst role.
 
-The Failed Login project aimed to establish a controlled environment to detect and investigate brute force using windows logs. The primary focus was to create failed login atempts to analyze log activity within Windows Even Viewers, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network log analysis, identifying suspicious activity, and basic threat detention.
+## Skills
 
-## Skills Learned
+| Skill                                    | Associated Project         |
+|-----------------------------------------------|----------------------------|
+| Network logs, brute force, nmap  | [Failed Login Investigation](Lab1-Failed-Login-Investigation/README.md) |
 
-  - Understanding of brute force attacks
-  - Analyzing and interpreting network logs.
-  - Ability to generate and recognize attack signatures and patterns.
-  - Enhanced knowledge of network protocols and security vulnerabilities.
 
-## Tools/Commands Used
+## Tools 
+[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
 
-  - Install wordlists
-  - Ipconfig
-  - nmap (port scans)
-  - hydra -l
-  - netsh advfirewall 
+### Network
+<div>
+    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
+</div>
 
-* Lab Setup:
-  Attacker: Kali
-  Target: Windows 10
-  Virtualization: VirtualBox
-  Nextwork: Host Only
-## Steps
-1. Enabled Logging 
-2. Event Viewer -> Window Logs -> Security 
-3. Simualte attack 
+### Endpoint
 
-Ref 1: Kali Results 
+### SIEM
 
-RDP (Remote Desktop Protoco) is reachable 
-hyrda connects to Windows 
-username/password correct
-User is not allowed to login through Remote Destop 
-<img width="848" height="421" alt="Kali Hydra Results Ping but user not allowed to log in" src="https://github.com/user-attachments/assets/52cf8f6a-a792-4161-aa9c-c64e1dcb7963" />
+## Certifications
 
-Ref 2: Windows Event Viewer Logs 
+<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" /> IN PROGRESS
 
-Successful factors:
-1. Logon Type 2 (Network) - confirms this is a network logon and not manaual typing at the screen
-2. Timing anf Event Count
-3. Identifying the attack
-       - Source Network Address
-       - Account Name 
-<img width="641" height="632" alt="Windows Security Log Results" src="https://github.com/user-attachments/assets/8c9ebc5c-da3a-4658-a375-d8b385af2dfb" />
+<img src="https://img.shields.io/badge/-Google%20Data%20Analytics-4285F4?&style=for-the-badge&logo=google&logoColor=white" />
 
-Ref 3: Windows Firewall 
-
-Enabling firewall and having it block the attacking system (Kali)
-<img width="935" height="317" alt="Windows FirewallRule" src="https://github.com/user-attachments/assets/f39a4e4d-9fb5-443c-ac39-4f7f938b6dbe" />
-<img width="798" height="215" alt="Windows10 nestsh Results" src="https://github.com/user-attachments/assets/289f8ce0-3f6a-4296-89e3-e3dff0e27a1e" />
+<img src="https://img.shields.io/badge/-ISC2-006400?&style=for-the-badge&logo=shield&logoColor=white" /> IN PROGRESS
+</div>
