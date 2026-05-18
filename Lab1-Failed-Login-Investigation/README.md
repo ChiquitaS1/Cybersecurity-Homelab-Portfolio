@@ -44,7 +44,7 @@ Kali Linux VM ---> Windows 10 VM
 ```
 # Lab Setup 
 
-## Step 1: Configure Window Target 
+## Step 1: Configure Windows Target 
 ```powershell
 net user tester Password123 /add
 ```
@@ -60,7 +60,7 @@ Enable RDP:
 Sysmon64.exe -i sysmonconfig.xml
 ```
 
-Verify installation:
+Verify Installation:
 ```powershell
 Get-Service Sysmon64
 ```
@@ -131,20 +131,20 @@ netsh advfirewall firewall add rule name="Block Attacker IP" dir=in action=block
 # Evidence & Screenshots
 
 ## Hydra Output
-✅ RDP (Remote Desktop Protoco) is reachable 
+✅ RDP (Remote Desktop Protocol) is reachable 
 
 ✅ hyrda connects to Windows
 
 ✅ username/password correct
 
-❌ User is not allowed to login through Remote Destop 
+❌ User is not allowed to login through Remote Desktop 
 
 <img width="848" height="421" alt="Kali Hydra Results Ping but user not allowed to log in" src="https://github.com/user-attachments/assets/52cf8f6a-a792-4161-aa9c-c64e1dcb7963" />
 
 ## Windows Event Viewer Logs 
 
 Successful factors:
-1. Logon Type 2 (Network) - confirms this is a network logon and not manaual typing at the screen
+1. Logon Type 2 (Network) - confirms this is a network logon and not manual typing at the screen
 2. Timing and Event Count
 3. Identifying the attack:
         Source Network Address,
