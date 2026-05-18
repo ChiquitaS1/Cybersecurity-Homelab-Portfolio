@@ -1,4 +1,4 @@
-# Hello, I'm Chiquita 
+# Hi, I'm Chiquita 
 <a href="https://www.linkedin.com/in/chiquita-s-scott-41a65ba0/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 Aspiring SOC Analyst building hands-on cybersecurity labs using Kali Linux, Windows 10, Sysmon, and VirtualBox. Currently studying for Security+ and ISC2 CC while documenting real-world attack simulations and defensive investigations.
