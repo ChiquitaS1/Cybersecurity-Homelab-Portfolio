@@ -1,30 +1,50 @@
-Project-Folder ** Template**
-Objective
-[Brief Objective - Remove this afterwards]
+## Lab 1: Failed Login Investigation
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+## Objective
+
+The Failed Login project aimed to establish a controlled environment to detect and investigate brute force using windows logs. The primary focus was to create failed login atempts to analyze log activity within Windows Even Viewers, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network log analysis, identifying suspicious activity, and basic threat detention.
 
 ## Skills Learned
-[Bullet Points - Remove this afterwards]
 
-Advanced understanding of SIEM concepts and practical application.
-Proficiency in analyzing and interpreting network logs.
-Ability to generate and recognize attack signatures and patterns.
-Enhanced knowledge of network protocols and security vulnerabilities.
-Development of critical thinking and problem-solving skills in cybersecurity.
+  - Understanding of brute force attacks
+  - Analyzing and interpreting network logs.
+  - Ability to generate and recognize attack signatures and patterns.
+  - Enhanced knowledge of network protocols and security vulnerabilities.
 
-## Tools Used
-[Bullet Points - Remove this afterwards]
+## Tools/Commands Used
 
-Security Information and Event Management (SIEM) system for log ingestion and analysis.
-Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-Telemetry generation tools to create realistic network traffic and attack scenarios.
+  - Install wordlists
+  - Ipconfig
+  - nmap (port scans)
+  - hydra -l
+  - netsh advfirewall 
+
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+1. Enabled Logging 
+2. Event Viewer -> Window Logs -> Security 
+3. Simualte attack 
 
-Every screenshot should have some text explaining what the screenshot is about.
+Ref 1: Kali Results 
 
-Example below.
+RDP (Remote Desktop Protoco) is reachable 
+hyrda connects to Windows 
+username/password correct
+User is not allowed to login through Remote Destop 
+<img width="848" height="421" alt="Kali Hydra Results Ping but user not allowed to log in" src="https://github.com/user-attachments/assets/52cf8f6a-a792-4161-aa9c-c64e1dcb7963" />
 
-Ref 1: Network Diagram
+Ref 2: Windows Event Viewer Logs 
+
+Successful factors:
+1. Logon Type 2 (Network) - confirms this is a network logon and not manaual typing at the screen
+2. Timing anf Event Count
+3. Identifying the attack
+       - Source Network Address
+       - Account Name 
+<img width="641" height="632" alt="Windows Security Log Results" src="https://github.com/user-attachments/assets/8c9ebc5c-da3a-4658-a375-d8b385af2dfb" />
+
+Ref 3: Windows Firewall 
+
+
+<img width="935" height="317" alt="Windows FirewallRule" src="https://github.com/user-attachments/assets/f39a4e4d-9fb5-443c-ac39-4f7f938b6dbe" />
+<img width="798" height="215" alt="Windows10 nestsh Results" src="https://github.com/user-attachments/assets/289f8ce0-3f6a-4296-89e3-e3dff0e27a1e" />
