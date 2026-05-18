@@ -145,15 +145,17 @@ netsh advfirewall firewall add rule name="Block Attacker IP" dir=in action=block
 
 Successful factors:
 1. Logon Type 2 (Network) - confirms this is a network logon and not manaual typing at the screen
-2. Timing anf Event Count
-3. Identifying the attack
-       - Source Network Address
-       - Account Name 
+2. Timing and Event Count
+3. Identifying the attack:
+        Source Network Address,
+        Account Name
+   
 <img width="641" height="632" alt="Windows Security Log Results" src="https://github.com/user-attachments/assets/8c9ebc5c-da3a-4658-a375-d8b385af2dfb" />
 
 ## Windows Firewall 
 
-Enabling firewall allowing Windows to block the attack
+Enabled firewall allowing Windows to block the attacks
+
 <img width="935" height="317" alt="Windows FirewallRule" src="https://github.com/user-attachments/assets/f39a4e4d-9fb5-443c-ac39-4f7f938b6dbe" />
 <img width="798" height="215" alt="Windows10 nestsh Results" src="https://github.com/user-attachments/assets/289f8ce0-3f6a-4296-89e3-e3dff0e27a1e" />
 
