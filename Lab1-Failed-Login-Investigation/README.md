@@ -2,7 +2,7 @@
 
 ## Objective
 
-The Failed Login project aimed to establish a controlled environment to detect and investigate brute force using windows logs. The primary focus was to create failed login atempts to analyze log activity within Windows Event Viewers, generating test logging to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network log analysis, identifying suspicious activity, and basic threat detention.
+The Failed Login project aimed to establish a controlled environment to detect and investigate brute force using windows logs. The primary focus was to create failed login attempts to analyze log activity within Windows Event Viewers, generating test logging to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network log analysis, identifying suspicious activity, and basic threat detention.
 
 ## Skills Learned
 
