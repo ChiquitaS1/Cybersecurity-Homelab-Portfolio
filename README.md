@@ -36,11 +36,11 @@ My journey in HRIS and System Operations has led me to develop a passion for cyb
 
 ## Certifications
 
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />   | IN PROGRESS | EXPECTED AUG 2026 |
+<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />   | IN PROGRESS |
 
 <img src="https://img.shields.io/badge/-Google%20Data%20Analytics-4285F4?&style=for-the-badge&logo=google&logoColor=white" />
 
-<img src="https://img.shields.io/badge/-ISC2-006400?&style=for-the-badge&logo=shield&logoColor=white" />    | IN PROGRESS | EXPECTED JULY 2026 |
+<img src="https://img.shields.io/badge/-ISC2-006400?&style=for-the-badge&logo=shield&logoColor=white" />
 </div>
 
 ## Projects
