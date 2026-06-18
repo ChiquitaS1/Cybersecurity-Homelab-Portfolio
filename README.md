@@ -13,7 +13,7 @@ Document findings and response actions
 Apply foundational cybersecurity concepts
 
 ## Objective
-My journey in HRIS and System Operations has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming for a SOC or Engineer roles.
+My journey in HRIS and System Operations has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming for a SOC or IAM Engineer roles.
 
 ## Skills
 
